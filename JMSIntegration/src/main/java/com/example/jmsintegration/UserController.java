@@ -80,6 +80,7 @@ public class UserController {
 		logger.info("updating user");
 		u1.setPassword(user.getPassword());
 		u1.setAddress(user.getAddress());
+		service.updateUser(u1);
 		return new ResponseEntity<User>(u1, HttpStatus.OK);
 	}
 	
