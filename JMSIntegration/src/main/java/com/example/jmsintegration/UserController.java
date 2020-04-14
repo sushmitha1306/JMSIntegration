@@ -22,6 +22,7 @@ import org.springframework.web.client.RestTemplate;
 import com.example.jmsintegration.entity.Exam;
 import com.example.jmsintegration.entity.RestClass;
 import com.example.jmsintegration.entity.User;
+import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.service.KafkaConsumer;
 import com.example.jmsintegration.service.KafkaSender;
 import com.example.jmsintegration.service.UserService;
@@ -65,7 +66,7 @@ public class UserController {
 	@PostMapping("/users")
 	@ResponseBody
 	@ApiOperation(value="Create New User")
-	public ResponseEntity<User> createUser(@Valid @RequestBody User user) {
+	public ResponseEntity<User> createUser(@Valid @RequestBody UserDTO user) {
 		logger.info("adding new user");
 		service.addUser(user);
 		return new ResponseEntity<>(HttpStatus.CREATED);
@@ -74,13 +75,13 @@ public class UserController {
 	@PutMapping("/users/{name}")
 	@ResponseBody
 	@ApiOperation("Update User Details like password")
-	public ResponseEntity<User> updateUser(@RequestBody User user,@PathVariable(name="name")String name) {
+	public ResponseEntity<User> updateUser(@RequestBody UserDTO user,@PathVariable(name="name")String name) {
 		User u1=service.findUser(name);
 		logger.info("updating user");
-		u1.setPassword(user.getPassword());
-		u1.setAddress(user.getAddress());
+		u1.setPassword(user.getUpassword());
+		u1.setAddress(user.getUaddress());
 		service.updateUser(u1);
-		return new ResponseEntity<>(u1, HttpStatus.OK);
+		return new ResponseEntity<>(u1,HttpStatus.OK);
 	}
 	
 	@DeleteMapping("/users/{name}")

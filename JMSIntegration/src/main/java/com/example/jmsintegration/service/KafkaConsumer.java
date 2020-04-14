@@ -23,7 +23,7 @@ public class KafkaConsumer {
     {
         Logger log=LoggerFactory.getLogger(KafkaConsumer.class);
         ex= exam;
-        log.info("Consumed Message----> {}",ex.toString());
+        log.debug("Consumed Message {}",ex);
         latch.countDown();
             
     }

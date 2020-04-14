@@ -9,10 +9,10 @@ public class Address {
 	@Id
 	private int id;
 	private String type;
-	private String address;
+	private String addr;
 	@Override
 	public String toString() {
-		return "Address [id=" + id + ", type=" + type + ", address=" + address + "]";
+		return "Address [id=" + id + ", type=" + type + ", addr=" + addr + "]";
 	}
 	public int getId() {
 		return id;
@@ -26,22 +26,22 @@ public class Address {
 	public void setType(String type) {
 		this.type = type;
 	}
-	public String getAddress() {
-		return address;
+	public String getAddr() {
+		return addr;
 	}
-	public void setAddress(String address) {
-		this.address = address;
+	public void setAddr(String addr) {
+		this.addr = addr;
 	}
 	/**
 	 * @param id
 	 * @param type
 	 * @param address
 	 */
-	public Address(int id, String type, String address) {
+	public Address(int id, String type, String addr) {
 		super();
 		this.id = id;
 		this.type = type;
-		this.address = address;
+		this.addr = addr;
 	}
 	/**
 	 * 
