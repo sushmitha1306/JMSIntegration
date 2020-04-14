@@ -11,7 +11,7 @@ public class JmsIntegrationApplication {
 
 	private static final Logger logger = LoggerFactory.getLogger(JmsIntegrationApplication.class);
 	public static void main(String[] args) {
-		SpringApplication.run(JmsIntegrationApplication.class, args);
+		SpringApplication.run(JmsIntegrationApplication.class);
 		logger.debug("--Application Started--");
 	}
 

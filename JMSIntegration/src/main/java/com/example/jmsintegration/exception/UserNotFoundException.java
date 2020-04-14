@@ -7,7 +7,7 @@ public class UserNotFoundException extends RuntimeException {
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	Logger logger = (Logger) LoggerFactory.getLogger(UserNotFoundException.class);
+	private static final Logger logger =  LoggerFactory.getLogger(UserNotFoundException.class);
 	public UserNotFoundException() {
         super();
     }

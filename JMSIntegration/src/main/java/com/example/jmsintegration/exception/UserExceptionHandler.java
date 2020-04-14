@@ -14,7 +14,7 @@ public class UserExceptionHandler {
         errorResponse.setStatus(HttpStatus.NOT_FOUND.value());
         errorResponse.setMessage(ine.getMessage());
         errorResponse.setTimeStamp(System.currentTimeMillis());
-        return new ResponseEntity<UserErrorResponse>(errorResponse,HttpStatus.NOT_FOUND);
+        return new ResponseEntity<>(errorResponse,HttpStatus.NOT_FOUND);
     }
 
     @ExceptionHandler
@@ -23,6 +23,6 @@ public class UserExceptionHandler {
         errorResponse.setStatus(HttpStatus.BAD_REQUEST.value());
         errorResponse.setMessage(ex.getMessage());
         errorResponse.setTimeStamp(System.currentTimeMillis());
-        return new ResponseEntity<UserErrorResponse>(errorResponse,HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<>(errorResponse,HttpStatus.BAD_REQUEST);
     }
 }

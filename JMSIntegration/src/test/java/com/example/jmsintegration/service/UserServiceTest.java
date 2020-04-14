@@ -34,8 +34,8 @@ public class UserServiceTest {
 	@Test
 	public void getAllUsersTest() {
 		List<User> users=new ArrayList<User>();
-		Address a1=new Address("Hyderabad","Bangalore");
-		Address a2=new Address("Chennai","Bangalore");
+		Address a1=new Address(1,"Home","southblock");
+		Address a2=new Address(2,"office","southblock");
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);
@@ -50,8 +50,8 @@ public class UserServiceTest {
 	
 	@Test
 	public void createUserTest() {
-		Address a1=new Address("Hyderabad","Bangalore");
-		Address a2=new Address("Chennai","Bangalore");
+		Address a1=new Address(3,"Home","southblock");
+		Address a2=new Address(4,"office","southblock");
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);

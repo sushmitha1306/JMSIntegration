@@ -42,7 +42,7 @@ public class UserController {
     
 	private RestTemplate template=new RestTemplate();
 	
-	private static final Logger logger = LoggerFactory.getLogger(JmsIntegrationApplication.class);
+	private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
 	@GetMapping("/template")
 	@ResponseBody
@@ -57,9 +57,9 @@ public class UserController {
 	@ResponseBody
 	@ApiOperation(value="Get All Users")
 	public ResponseEntity<List<User>> getAllUsers(){
-		logger.info("Retrieving all users:"+ service.getAllUsers());
+		logger.info("Retrieving all users: {}", service.getAllUsers());
 		List<User> users=service.getAllUsers();
-		return new ResponseEntity<List<User>>(users, HttpStatus.OK);
+		return new ResponseEntity<>(users, HttpStatus.OK);
 	}
 	
 	@PostMapping("/users")
@@ -68,7 +68,7 @@ public class UserController {
 	public ResponseEntity<User> createUser(@Valid @RequestBody User user) {
 		logger.info("adding new user");
 		service.addUser(user);
-		return new ResponseEntity<User>(HttpStatus.CREATED);
+		return new ResponseEntity<>(HttpStatus.CREATED);
 	}
 	
 	@PutMapping("/users/{name}")
@@ -76,12 +76,11 @@ public class UserController {
 	@ApiOperation("Update User Details like password")
 	public ResponseEntity<User> updateUser(@RequestBody User user,@PathVariable(name="name")String name) {
 		User u1=service.findUser(name);
-			//	.orElseThrow(() -> new ResourceNotFoundException("User not found for this name :: " + name));
 		logger.info("updating user");
 		u1.setPassword(user.getPassword());
 		u1.setAddress(user.getAddress());
 		service.updateUser(u1);
-		return new ResponseEntity<User>(u1, HttpStatus.OK);
+		return new ResponseEntity<>(u1, HttpStatus.OK);
 	}
 	
 	@DeleteMapping("/users/{name}")
@@ -90,7 +89,7 @@ public class UserController {
 	public ResponseEntity<Void> deleteUser(@PathVariable(name="name")String name) {
 	    logger.warn("deleting user"); 
 		service.deleteUser(name);
-	    return new ResponseEntity<Void>(HttpStatus.ACCEPTED);
+	    return new ResponseEntity<>(HttpStatus.ACCEPTED);
 	}
 	
 	@PostMapping("/examproducer")
@@ -104,7 +103,6 @@ public class UserController {
 	 @ApiOperation(value="Consumer Receiving Message")
 	 public Exam getMessage()
 	 {               
-	    Exam e=consumer.getConsumedmessage(); 
-	    return e;
+	    return consumer.getConsumedmessage(); 
 	 }
 }

@@ -3,6 +3,7 @@ package com.example.jmsintegration.entity;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
@@ -15,6 +16,7 @@ public class User {
 	private String email;
 	private String password;
 	@NotEmpty(message="Username is mandatory")
+	@Column(unique=true)
 	private String name;
 	private String role;
 	@OneToMany(cascade = CascadeType.ALL)

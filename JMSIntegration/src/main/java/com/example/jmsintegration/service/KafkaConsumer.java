@@ -17,13 +17,13 @@ public class KafkaConsumer {
 	  public CountDownLatch getLatch() {
 	    return latch;
 	  }
-	private static Exam ex;
+    Exam ex;
     @KafkaListener(topics="exam")
     public void consume(Exam exam)
     {
         Logger log=LoggerFactory.getLogger(KafkaConsumer.class);
         ex= exam;
-        log.info("Consumed Message---->"+ex.toString());
+        log.info("Consumed Message----> {}",ex.toString());
         latch.countDown();
             
     }

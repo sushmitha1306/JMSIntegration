@@ -26,8 +26,8 @@ class UserRepositoryTest {
 	
 	@Test
 	public void getAllUsersTest() {
-		Address a1=new Address("Hyderabad","Bangalore");
-		Address a2=new Address("Chennai","Bangalore");
+		Address a1=new Address(1,"Home","southblock");
+		Address a2=new Address(2,"office","northblock");
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		Set<Address> s2=new HashSet<>();
@@ -42,8 +42,8 @@ class UserRepositoryTest {
 	
 	@Test
 	public void deleteUserTest() {
-		Address a1=new Address("Hyderabad","Bangalore");
-		Address a2=new Address("Chennai","Bangalore");
+		Address a1=new Address(3,"Home","southblock");
+		Address a2=new Address(4,"office","southblock");
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		Set<Address> s2=new HashSet<>();
@@ -59,7 +59,7 @@ class UserRepositoryTest {
 	
 	@Test
 	public void createUserTest() {
-		Address a1=new Address("Hyderabad","Bangalore");
+		Address a1=new Address(6,"Home","southblock");
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		User u1=new User("smith@gmail.com","smith123","smith","student",s1);
