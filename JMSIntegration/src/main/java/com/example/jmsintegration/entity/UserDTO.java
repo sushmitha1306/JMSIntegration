@@ -8,7 +8,7 @@ public class UserDTO {
 	private String upassword;
 	private String uname;
 	private String urole;
-	private Set<Address> uaddress;
+	private Set<AddressDTO> uaddress;
 	public String getUemail() {
 		return uemail;
 	}
@@ -33,10 +33,10 @@ public class UserDTO {
 	public void setUrole(String urole) {
 		this.urole = urole;
 	}
-	public Set<Address> getUaddress() {
+	public Set<AddressDTO> getUaddress() {
 		return uaddress;
 	}
-	public void setUaddress(Set<Address> uaddress) {
+	public void setUaddress(Set<AddressDTO> uaddress) {
 		this.uaddress = uaddress;
 	}
 	@Override
@@ -51,7 +51,7 @@ public class UserDTO {
 	 * @param urole
 	 * @param uaddress
 	 */
-	public UserDTO(String uemail, String upassword, String uname, String urole, Set<Address> uaddress) {
+	public UserDTO(String uemail, String upassword, String uname, String urole, Set<AddressDTO> uaddress) {
 		super();
 		this.uemail = uemail;
 		this.upassword = upassword;

@@ -25,8 +25,12 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public User updateUser(User user) {
-		return repo.save(user);
+	public User updateUser(UserDTO user,String name) {
+		User u1=repo.findByName(name);
+		User u=modelMapper.map(user, User.class);
+        u1.setPassword(u.getPassword());
+        u1.setAddress(u.getAddress());
+		return repo.save(u1);
 	}
 
 	@Override

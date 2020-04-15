@@ -15,7 +15,6 @@ public class KafkaSender {
 	String kafkaTopic = "exam";
     Logger log=LoggerFactory.getLogger(KafkaSender.class);
     public void send(Exam exam) {
-    	log.info("sending exam details: {}",exam);
-        kafkaTemplate.send(kafkaTopic, exam);
+    	kafkaTemplate.send(kafkaTopic, exam);
     }
 }
