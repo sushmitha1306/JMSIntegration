@@ -4,6 +4,7 @@ import java.util.List;
 
 import javax.validation.Valid;
 
+import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -36,6 +37,9 @@ public class UserController {
 	UserService service;
 	
 	@Autowired
+    private ModelMapper modelMapper;
+	
+	@Autowired
 	KafkaSender kafkaSender;
 
 	@Autowired
@@ -66,9 +70,10 @@ public class UserController {
 	@PostMapping("/users")
 	@ResponseBody
 	@ApiOperation(value="Create New User")
-	public ResponseEntity<User> createUser(@Valid @RequestBody UserDTO user) {
+	public ResponseEntity<User> createUser(@RequestBody UserDTO user) {
 		logger.info("adding new user");
-		service.addUser(user);
+		User u1=modelMapper.map(user, User.class);
+		service.addUser(u1);
 		return new ResponseEntity<>(HttpStatus.CREATED);
 	}
 	
@@ -76,11 +81,12 @@ public class UserController {
 	@ResponseBody
 	@ApiOperation("Update User Details like password")
 	public ResponseEntity<User> updateUser(@RequestBody UserDTO user,@PathVariable(name="name")String name) {
-//		User u1=service.findUser(name);
-//		logger.info("updating user");
-//		u1.setPassword(user.getUpassword());
-//		u1.setAddress(user.getUaddress());
-		User u1=service.updateUser(user,name);
+		User u1=service.findUser(name);
+		logger.info("updating user");
+		u1.setPassword(user.getPassword());
+		u1.setAddress(user.getAddress());
+		//User u1=service.updateUser(user,name);
+		service.updateUser(u1);
 		return new ResponseEntity<>(u1,HttpStatus.OK);
 	}
 	

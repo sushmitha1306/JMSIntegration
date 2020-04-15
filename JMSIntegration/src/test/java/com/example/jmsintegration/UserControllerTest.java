@@ -27,9 +27,7 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.example.jmsintegration.entity.Address;
-import com.example.jmsintegration.entity.AddressDTO;
 import com.example.jmsintegration.entity.User;
-import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.service.KafkaConsumer;
 import com.example.jmsintegration.service.KafkaSender;
 import com.example.jmsintegration.service.UserService;
@@ -55,15 +53,16 @@ class UserControllerTest {
 
 	@Test
 	public void createUserTest() throws Exception {
-		AddressDTO a1=new AddressDTO(1,"home","southblock");
-		Set<AddressDTO> s1=new HashSet<>();
-		s1.add(a1);
+		//AddressDTO a1=new AddressDTO(1,"home","southblock");
+		//Set<AddressDTO> s1=new HashSet<>();
+		//s1.add(a1);
 		Address a2=new Address(1,"home","southblock");
 		Set<Address> s2=new HashSet<>();
 		s2.add(a2);
-		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
+        //UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s2);
 		User u2=new User("smith@gmail.com","smith123","smith","student",s2);
-		Mockito.when(service.addUser(u1)).thenReturn(u2);
+		Mockito.when(service.addUser(u2)).thenReturn(u2);
+		//Mockito.when(service.addUser(u2)).thenReturn(u2);
 		RequestBuilder req= MockMvcRequestBuilders.get("/users");
 		MvcResult result=mvc.perform(req).andExpect(status().isOk()).andReturn();
 		assertEquals(false,result.getResponse().getContentAsString().isEmpty());

@@ -3,15 +3,14 @@ package com.example.jmsintegration.service;
 import java.util.List;
 
 import com.example.jmsintegration.entity.User;
-import com.example.jmsintegration.entity.UserDTO;
 
 public interface UserService {
 
-	public User addUser(UserDTO user);
+	public User addUser(User user);
 	
 	public List<User> getAllUsers();
 	
-	public User updateUser(UserDTO user, String name);
+	public User updateUser(User user);
 	
 	public void deleteUser(String name);
 
