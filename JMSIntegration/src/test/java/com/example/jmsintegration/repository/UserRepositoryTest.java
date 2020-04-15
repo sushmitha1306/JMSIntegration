@@ -14,7 +14,7 @@ import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.example.jmsintegration.entity.Address;
-import com.example.jmsintegration.entity.User;
+import com.example.jmsintegration.entity.UserDTO;
 
 @ActiveProfiles("test")
 @RunWith(SpringRunner.class)
@@ -32,11 +32,11 @@ class UserRepositoryTest {
 		s1.add(a1);
 		Set<Address> s2=new HashSet<>();
 		s2.add(a2);
-		User u1=new User("smith@gmail.com","smith123","smith","student",s1);
-		User u2=new User("john@gmail.com","john123","John","teacher",s2);
+		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
+		UserDTO u2=new UserDTO("john@gmail.com","john123","John","teacher",s2);
 	    repo.save(u1);
 	    repo.save(u2);
-	    List<User> users=repo.findAll();
+	    List<UserDTO> users=repo.findAll();
 	    assertThat(users.size()).isEqualTo(2);
 	}
 	
@@ -48,12 +48,12 @@ class UserRepositoryTest {
 		s1.add(a1);
 		Set<Address> s2=new HashSet<>();
 		s2.add(a2);
-		User u1=new User("smith@gmail.com","smith123","smith","student",s1);
-		User u2=new User("john@gmail.com","john123","John","teacher",s2);
+		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
+		UserDTO u2=new UserDTO("john@gmail.com","john123","John","teacher",s2);
 	    repo.save(u1);
 	    repo.save(u2);
 	    repo.delete(u2);
-	    List<User> users=repo.findAll();
+	    List<UserDTO> users=repo.findAll();
 	    assertThat(users.size()).isEqualTo(1);
 	}
 	
@@ -62,9 +62,9 @@ class UserRepositoryTest {
 		Address a1=new Address(6,"Home","southblock");
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
-		User u1=new User("smith@gmail.com","smith123","smith","student",s1);
+		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
 		repo.save(u1);
-		List<User> users=repo.findAll();
+		List<UserDTO> users=repo.findAll();
 		assertThat(users.isEmpty()).isEqualTo(false);
 	}
 }

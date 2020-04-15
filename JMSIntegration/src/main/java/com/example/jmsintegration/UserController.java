@@ -1,9 +1,6 @@
 package com.example.jmsintegration;
 
 import java.util.List;
-
-import javax.validation.Valid;
-
 import org.modelmapper.ModelMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,6 +20,7 @@ import org.springframework.web.client.RestTemplate;
 import com.example.jmsintegration.entity.Exam;
 import com.example.jmsintegration.entity.RestClass;
 import com.example.jmsintegration.entity.User;
+import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.service.KafkaConsumer;
 import com.example.jmsintegration.service.KafkaSender;
@@ -61,31 +59,31 @@ public class UserController {
 	@GetMapping("/users")
 	@ResponseBody
 	@ApiOperation(value="Get All Users")
-	public ResponseEntity<List<User>> getAllUsers(){
+	public ResponseEntity<List<UserDTO>> getAllUsers(){
 		logger.info("Retrieving all users: {}", service.getAllUsers());
-		List<User> users=service.getAllUsers();
+		List<UserDTO> users=service.getAllUsers();
 		return new ResponseEntity<>(users, HttpStatus.OK);
 	}
 	
 	@PostMapping("/users")
 	@ResponseBody
 	@ApiOperation(value="Create New User")
-	public ResponseEntity<User> createUser(@RequestBody UserDTO user) {
+	public ResponseEntity<UserDTO> createUser(@RequestBody User user) {
 		logger.info("adding new user");
-		User u1=modelMapper.map(user, User.class);
-		service.addUser(u1);
+		UserDTO u2=new UserDTO();
+		modelMapper.map(user, u2);
+		service.addUser(u2);
 		return new ResponseEntity<>(HttpStatus.CREATED);
 	}
 	
 	@PutMapping("/users/{name}")
 	@ResponseBody
 	@ApiOperation("Update User Details like password")
-	public ResponseEntity<User> updateUser(@RequestBody UserDTO user,@PathVariable(name="name")String name) {
-		User u1=service.findUser(name);
+	public ResponseEntity<UserDTO> updateUser(@RequestBody User user,@PathVariable(name="name")String name) {
+		UserDTO u1=service.findUser(name);
 		logger.info("updating user");
 		u1.setPassword(user.getPassword());
 		u1.setAddress(user.getAddress());
-		//User u1=service.updateUser(user,name);
 		service.updateUser(u1);
 		return new ResponseEntity<>(u1,HttpStatus.OK);
 	}

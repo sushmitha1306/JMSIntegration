@@ -3,10 +3,10 @@ package com.example.jmsintegration.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.example.jmsintegration.entity.User;
+import com.example.jmsintegration.entity.UserDTO;
 
-public interface UserRepository extends JpaRepository<User, Long> {
+public interface UserRepository extends JpaRepository<UserDTO, Long> {
 
-	@Query(" from User u where u.name=?1")
-	User findByName(String name);
+	@Query(" from UserDTO u where u.name=?1")
+	UserDTO findByName(String name);
 }

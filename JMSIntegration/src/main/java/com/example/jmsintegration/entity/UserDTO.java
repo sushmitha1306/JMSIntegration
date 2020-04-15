@@ -2,19 +2,30 @@ package com.example.jmsintegration.entity;
 
 import java.util.Set;
 
+import javax.persistence.CascadeType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.validation.constraints.NotEmpty;
+
+@Entity
 public class UserDTO {
 
+	@Id
+	@GeneratedValue(strategy=GenerationType.SEQUENCE)
+	private Long id;
+	@Column(unique=true)
 	private String email;
 	private String password;
+	@NotEmpty(message="Username is mandatory")
+	@Column(unique=true)
 	private String name;
 	private String role;
+	@OneToMany(cascade = CascadeType.ALL)
 	private Set<Address> address;
-	/**
-	 * 
-	 */
-	public UserDTO() {
-		super();
-	}
 	public String getEmail() {
 		return email;
 	}
@@ -33,31 +44,23 @@ public class UserDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getRole() {
-		return role;
-	}
-	public void setRole(String role) {
-		this.role = role;
-	}
 	public Set<Address> getAddress() {
 		return address;
 	}
 	public void setAddress(Set<Address> address) {
 		this.address = address;
 	}
-	@Override
-	public String toString() {
-		return "UserDTO [email=" + email + ", password=" + password + ", name=" + name + ", role=" + role + ", address="
-				+ address + "]";
+	public String getRole() {
+		return role;
 	}
-	/**
-	 * @param email
-	 * @param password
-	 * @param name
-	 * @param role
-	 * @param address
-	 */
-	public UserDTO(String email, String password, String name, String role, Set<Address> address) {
+	public void setRole(String role) {
+		this.role = role;
+	}
+	public UserDTO() {
+		super();
+	}
+	public UserDTO(String email, String password, @NotEmpty(message = "Username is mandatory") String name, String role,
+			Set<Address> address) {
 		super();
 		this.email = email;
 		this.password = password;
@@ -65,6 +68,12 @@ public class UserDTO {
 		this.role = role;
 		this.address = address;
 	}
+	@Override
+	public String toString() {
+		return "User [email=" + email + ", password=" + password + ", name=" + name + ", role=" + role + ", address="
+				+ address + "]";
+	}
 	
-
+	
+	
 }

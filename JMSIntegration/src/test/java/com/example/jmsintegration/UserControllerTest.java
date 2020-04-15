@@ -27,7 +27,7 @@ import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.example.jmsintegration.entity.Address;
-import com.example.jmsintegration.entity.User;
+import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.service.KafkaConsumer;
 import com.example.jmsintegration.service.KafkaSender;
 import com.example.jmsintegration.service.UserService;
@@ -60,7 +60,7 @@ class UserControllerTest {
 		Set<Address> s2=new HashSet<>();
 		s2.add(a2);
         //UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s2);
-		User u2=new User("smith@gmail.com","smith123","smith","student",s2);
+		UserDTO u2=new UserDTO("smith@gmail.com","smith123","smith","student",s2);
 		Mockito.when(service.addUser(u2)).thenReturn(u2);
 		//Mockito.when(service.addUser(u2)).thenReturn(u2);
 		RequestBuilder req= MockMvcRequestBuilders.get("/users");
@@ -70,17 +70,17 @@ class UserControllerTest {
 	
 	@Test
 	public void getAllUsersTest() {
-		List<User> users=new ArrayList<User>();
+		List<UserDTO> users=new ArrayList<UserDTO>();
 		Address a1=new Address(2,"home","northblock");
 		Address a2=new Address(3,"office","southblock");
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);
-		User u1=new User("smith@gmail.com","smith123","smith","student",s1);
-		User u2=new User("john@gmail.com","john123","John","teacher",s1);
+		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
+		UserDTO u2=new UserDTO("john@gmail.com","john123","John","teacher",s1);
 		users.add(u1);
 		users.add(u2);
-		when(service.getAllUsers()).thenReturn(Stream.of(new User("smith@gmail.com","smith123","smith","student",s1),new User("john@gmail.com","john123","John","teacher",s1)).collect(Collectors.toList()));
+		when(service.getAllUsers()).thenReturn(Stream.of(new UserDTO("smith@gmail.com","smith123","smith","student",s1),new UserDTO("john@gmail.com","john123","John","teacher",s1)).collect(Collectors.toList()));
 		assertEquals(2,service.getAllUsers().size());
 
 	}

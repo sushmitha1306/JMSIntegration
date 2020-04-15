@@ -2,17 +2,17 @@ package com.example.jmsintegration.service;
 
 import java.util.List;
 
-import com.example.jmsintegration.entity.User;
+import com.example.jmsintegration.entity.UserDTO;
 
 public interface UserService {
 
-	public User addUser(User user);
+	public UserDTO addUser(UserDTO user);
 	
-	public List<User> getAllUsers();
+	public List<UserDTO> getAllUsers();
 	
-	public User updateUser(User user);
+	public UserDTO updateUser(UserDTO user);
 	
 	public void deleteUser(String name);
 
-	public User findUser(String name);
+	public UserDTO findUser(String name);
 }

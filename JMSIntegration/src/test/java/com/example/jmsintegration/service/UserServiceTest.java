@@ -18,7 +18,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import com.example.jmsintegration.entity.Address;
-import com.example.jmsintegration.entity.User;
+import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.repository.UserRepository;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -33,18 +33,18 @@ public class UserServiceTest {
 	
 	@Test
 	public void getAllUsersTest() {
-		List<User> users=new ArrayList<User>();
+		List<UserDTO> users=new ArrayList<UserDTO>();
 		Address a1=new Address(1,"Home","southblock");
 		Address a2=new Address(2,"office","southblock");
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);
-		User u1=new User("smith@gmail.com","smith123","smith","student",s1);
-		User u2=new User("john@gmail.com","john123","John","teacher",s1);
+		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
+		UserDTO u2=new UserDTO("john@gmail.com","john123","John","teacher",s1);
 		users.add(u1);
 		users.add(u2);
 		when(repo.findAll()).thenReturn(users);
-		List<User> list=repo.findAll();
+		List<UserDTO> list=repo.findAll();
 		assertEquals(2,list.size());
 	}
 	
@@ -55,7 +55,7 @@ public class UserServiceTest {
 		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);
-		User u1=new User("smith@gmail.com","smith123","smith","student",s1);
+		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
 		repo.save(u1);
 		verify(repo, times(1)).save(u1);
 	}

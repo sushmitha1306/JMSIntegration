@@ -4,7 +4,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.example.jmsintegration.entity.User;
+import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.repository.UserRepository;
 @Component
 public class UserServiceImpl implements UserService {
@@ -13,33 +13,28 @@ public class UserServiceImpl implements UserService {
 	UserRepository repo;
 
 	@Override
-	public List<User> getAllUsers() {
+	public List<UserDTO> getAllUsers() {
 		return repo.findAll();
 	}
 
 	@Override
-	public User updateUser(User u1) {
-//		User u1=repo.findByName(name);
-//		User u=modelMapper.map(user, User.class);
-//        u1.setPassword(u.getPassword());
-//        u1.setAddress(u.getAddress());
+	public UserDTO updateUser(UserDTO u1) {
    		return repo.save(u1);
 	}
 
 	@Override
 	public void deleteUser(String name) {
-		User user=repo.findByName(name);
+		UserDTO user=repo.findByName(name);
 		repo.delete(user);
 	}
 
 	@Override
-	public User findUser(String name) {
+	public UserDTO findUser(String name) {
 	    return repo.findByName(name);	
 	}
 
 	@Override
-	public User addUser(User user) {
-	//	User u=modelMapper.map(user, User.class);
+	public UserDTO addUser(UserDTO user) {
 		return repo.save(user);
 	}
 	
