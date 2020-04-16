@@ -17,7 +17,7 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.example.jmsintegration.entity.AddressDTO;
+import com.example.jmsintegration.entity.Address;
 import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.repository.UserRepository;
 
@@ -34,9 +34,9 @@ public class UserServiceTest {
 	@Test
 	public void getAllUsersTest() {
 		List<UserDTO> users=new ArrayList<UserDTO>();
-		AddressDTO a1=new AddressDTO(1,"Home","southblock");
-		AddressDTO a2=new AddressDTO(2,"office","southblock");
-		Set<AddressDTO> s1=new HashSet<>();
+		Address a1=new Address(1,"Home","southblock");
+		Address a2=new Address(2,"office","southblock");
+		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);
 		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
@@ -50,14 +50,15 @@ public class UserServiceTest {
 	
 	@Test
 	public void createUserTest() {
-		AddressDTO a1=new AddressDTO(3,"Home","southblock");
-		AddressDTO a2=new AddressDTO(4,"office","southblock");
-		Set<AddressDTO> s1=new HashSet<>();
+		Address a1=new Address(3,"Home","southblock");
+		Address a2=new Address(4,"office","southblock");
+		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);
 		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
 		repo.save(u1);
 		verify(repo, times(1)).save(u1);
 	}
+	
 
 }

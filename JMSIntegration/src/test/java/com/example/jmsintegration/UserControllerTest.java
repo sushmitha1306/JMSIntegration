@@ -1,5 +1,6 @@
 package com.example.jmsintegration;
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -10,7 +11,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +27,7 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.example.jmsintegration.entity.AddressDTO;
+import com.example.jmsintegration.entity.Address;
 import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.service.KafkaConsumer;
 import com.example.jmsintegration.service.KafkaSender;
@@ -37,32 +38,32 @@ import com.example.jmsintegration.service.UserService;
 @DirtiesContext
 @EmbeddedKafka(partitions = 1,
     topics = {UserControllerTest.HELLOWORLD_TOPIC})
-class UserControllerTest {
+
+public class UserControllerTest {
 
 	static final String HELLOWORLD_TOPIC = "exam";
+
 	@MockBean
 	UserService service;
+
 	@Autowired
 	private MockMvc mvc;
+	
 	@MockBean
 	KafkaSender kafkaSender;
 	@MockBean
 	KafkaConsumer consumer;
 	
-
-
+	public UserControllerTest() {
+		
+	}
 	@Test
 	public void createUserTest() throws Exception {
-		//AddressDTO a1=new AddressDTO(1,"home","southblock");
-		//Set<AddressDTO> s1=new HashSet<>();
-		//s1.add(a1);
-		AddressDTO a2=new AddressDTO(1,"home","southblock");
-		Set<AddressDTO> s2=new HashSet<>();
+		Address a2=new Address(1,"home","southblock");
+		Set<Address> s2=new HashSet<>();
 		s2.add(a2);
-        //UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s2);
-		UserDTO u2=new UserDTO("smith@gmail.com","smith123","smith","student",s2);
+        UserDTO u2=new UserDTO("smith@gmail.com","smith123","smith","student",s2);
 		Mockito.when(service.addUser(u2)).thenReturn(u2);
-		//Mockito.when(service.addUser(u2)).thenReturn(u2);
 		RequestBuilder req= MockMvcRequestBuilders.get("/users");
 		MvcResult result=mvc.perform(req).andExpect(status().isOk()).andReturn();
 		assertEquals(false,result.getResponse().getContentAsString().isEmpty());
@@ -71,9 +72,9 @@ class UserControllerTest {
 	@Test
 	public void getAllUsersTest() {
 		List<UserDTO> users=new ArrayList<UserDTO>();
-		AddressDTO a1=new AddressDTO(2,"home","northblock");
-		AddressDTO a2=new AddressDTO(3,"office","southblock");
-		Set<AddressDTO> s1=new HashSet<>();
+		Address a1=new Address(2,"home","northblock");
+		Address a2=new Address(3,"office","southblock");
+		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);
 		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
@@ -91,5 +92,6 @@ class UserControllerTest {
 		mvc.perform(req).andExpect(status().isMethodNotAllowed()).andReturn();
 		
 	}
+
 
 }

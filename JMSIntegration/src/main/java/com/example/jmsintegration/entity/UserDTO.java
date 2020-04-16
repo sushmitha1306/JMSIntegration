@@ -25,7 +25,7 @@ public class UserDTO {
 	private String name;
 	private String role;
 	@OneToMany(cascade = CascadeType.ALL)
-	private Set<AddressDTO> address;
+	private Set<Address> address;
 	public String getEmail() {
 		return email;
 	}
@@ -44,10 +44,10 @@ public class UserDTO {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Set<AddressDTO> getAddress() {
+	public Set<Address> getAddress() {
 		return address;
 	}
-	public void setAddress(Set<AddressDTO> address) {
+	public void setAddress(Set<Address> address) {
 		this.address = address;
 	}
 	public String getRole() {
@@ -60,7 +60,7 @@ public class UserDTO {
 		super();
 	}
 	public UserDTO(String email, String password, @NotEmpty(message = "Username is mandatory") String name, String role,
-			Set<AddressDTO> address) {
+			Set<Address> address) {
 		super();
 		this.email = email;
 		this.password = password;

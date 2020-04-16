@@ -13,7 +13,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.example.jmsintegration.entity.AddressDTO;
+import com.example.jmsintegration.entity.Address;
 import com.example.jmsintegration.entity.UserDTO;
 
 @ActiveProfiles("test")
@@ -26,11 +26,11 @@ class UserRepositoryTest {
 	
 	@Test
 	public void getAllUsersTest() {
-		AddressDTO a1=new AddressDTO(1,"Home","southblock");
-		AddressDTO a2=new AddressDTO(2,"office","northblock");
-		Set<AddressDTO> s1=new HashSet<>();
+		Address a1=new Address(1,"Home","southblock");
+		Address a2=new Address(2,"office","northblock");
+		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
-		Set<AddressDTO> s2=new HashSet<>();
+		Set<Address> s2=new HashSet<>();
 		s2.add(a2);
 		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
 		UserDTO u2=new UserDTO("john@gmail.com","john123","John","teacher",s2);
@@ -42,11 +42,11 @@ class UserRepositoryTest {
 	
 	@Test
 	public void deleteUserTest() {
-		AddressDTO a1=new AddressDTO(3,"Home","southblock");
-		AddressDTO a2=new AddressDTO(4,"office","southblock");
-		Set<AddressDTO> s1=new HashSet<>();
+		Address a1=new Address(3,"Home","southblock");
+		Address a2=new Address(4,"office","southblock");
+		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
-		Set<AddressDTO> s2=new HashSet<>();
+		Set<Address> s2=new HashSet<>();
 		s2.add(a2);
 		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
 		UserDTO u2=new UserDTO("john@gmail.com","john123","John","teacher",s2);
@@ -59,8 +59,8 @@ class UserRepositoryTest {
 	
 	@Test
 	public void createUserTest() {
-		AddressDTO a1=new AddressDTO(6,"Home","southblock");
-		Set<AddressDTO> s1=new HashSet<>();
+		Address a1=new Address(6,"Home","southblock");
+		Set<Address> s1=new HashSet<>();
 		s1.add(a1);
 		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);
 		repo.save(u1);
