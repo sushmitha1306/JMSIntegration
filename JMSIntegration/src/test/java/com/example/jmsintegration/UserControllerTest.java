@@ -26,7 +26,7 @@ import org.springframework.test.web.servlet.MvcResult;
 import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.example.jmsintegration.entity.Address;
+import com.example.jmsintegration.entity.AddressDTO;
 import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.service.KafkaConsumer;
 import com.example.jmsintegration.service.KafkaSender;
@@ -56,8 +56,8 @@ class UserControllerTest {
 		//AddressDTO a1=new AddressDTO(1,"home","southblock");
 		//Set<AddressDTO> s1=new HashSet<>();
 		//s1.add(a1);
-		Address a2=new Address(1,"home","southblock");
-		Set<Address> s2=new HashSet<>();
+		AddressDTO a2=new AddressDTO(1,"home","southblock");
+		Set<AddressDTO> s2=new HashSet<>();
 		s2.add(a2);
         //UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s2);
 		UserDTO u2=new UserDTO("smith@gmail.com","smith123","smith","student",s2);
@@ -71,9 +71,9 @@ class UserControllerTest {
 	@Test
 	public void getAllUsersTest() {
 		List<UserDTO> users=new ArrayList<UserDTO>();
-		Address a1=new Address(2,"home","northblock");
-		Address a2=new Address(3,"office","southblock");
-		Set<Address> s1=new HashSet<>();
+		AddressDTO a1=new AddressDTO(2,"home","northblock");
+		AddressDTO a2=new AddressDTO(3,"office","southblock");
+		Set<AddressDTO> s1=new HashSet<>();
 		s1.add(a1);
 		s1.add(a2);
 		UserDTO u1=new UserDTO("smith@gmail.com","smith123","smith","student",s1);

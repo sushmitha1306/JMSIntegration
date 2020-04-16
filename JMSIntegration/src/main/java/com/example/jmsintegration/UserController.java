@@ -21,7 +21,6 @@ import com.example.jmsintegration.entity.Exam;
 import com.example.jmsintegration.entity.RestClass;
 import com.example.jmsintegration.entity.User;
 import com.example.jmsintegration.entity.UserDTO;
-import com.example.jmsintegration.entity.UserDTO;
 import com.example.jmsintegration.service.KafkaConsumer;
 import com.example.jmsintegration.service.KafkaSender;
 import com.example.jmsintegration.service.UserService;
