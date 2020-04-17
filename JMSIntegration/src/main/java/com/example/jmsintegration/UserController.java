@@ -79,11 +79,10 @@ public class UserController {
 	@ResponseBody
 	@ApiOperation("Update User Details like password")
 	public ResponseEntity<UserDTO> updateUser(@RequestBody User user,@PathVariable(name="name")String name) {
-		UserDTO u1=service.findUser(name);
 		logger.info("updating user");
-		u1.setPassword(user.getPassword());
-		u1.setAddress(user.getAddress());
-		service.updateUser(u1);
+		UserDTO user1=new UserDTO();
+		modelMapper.map(user, user1);
+		UserDTO u1=service.updateUser(user1,name);
 		return new ResponseEntity<>(u1,HttpStatus.OK);
 	}
 	

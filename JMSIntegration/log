@@ -1,30 +1,30 @@
-2020-Apr-16 18:09:33.748 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Starting JmsIntegrationApplication on PC2016110702IRN with PID 1332 (C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration\target\classes started by 7HP_SP1 in C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration)
-2020-Apr-16 18:09:33.816 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
-2020-Apr-16 18:09:33.818 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - No active profile set, falling back to default profiles: default
-2020-Apr-16 18:09:35.876 INFO  [restartedMain] o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Users\7HP_SP1\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
-2020-Apr-16 18:09:35.878 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-Apr-16 18:09:35.880 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-Apr-16 18:09:45.577 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2020-Apr-16 18:09:46.174 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 512ms. Found 1 JPA repository interfaces.
-2020-Apr-16 18:09:51.838 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
-2020-Apr-16 18:09:51.911 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
-2020-Apr-16 18:09:51.912 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
-2020-Apr-16 18:09:52.733 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
-2020-Apr-16 18:09:52.734 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 16853 ms
-2020-Apr-16 18:09:53.695 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
-2020-Apr-16 18:09:54.865 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
-2020-Apr-16 18:09:54.904 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2020-Apr-16 18:09:56.668 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
-2020-Apr-16 18:09:57.350 INFO  [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
-2020-Apr-16 18:09:58.331 INFO  [restartedMain] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
-2020-Apr-16 18:09:58.947 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
-2020-Apr-16 18:10:04.061 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2020-Apr-16 18:10:04.108 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
-2020-Apr-16 18:10:04.408 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
-2020-Apr-16 18:10:09.745 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2020-Apr-16 18:10:10.539 INFO  [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
-2020-Apr-16 18:10:12.145 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2020-Apr-16 18:10:14.584 INFO  [restartedMain] o.a.k.c.c.ConsumerConfig - ConsumerConfig values: 
+2020-Apr-17 09:12:20.925 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Starting JmsIntegrationApplication on PC2016110702IRN with PID 5520 (C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration\target\classes started by 7HP_SP1 in C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration)
+2020-Apr-17 09:12:20.958 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-Apr-17 09:12:20.994 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - No active profile set, falling back to default profiles: default
+2020-Apr-17 09:12:21.950 INFO  [restartedMain] o.s.b.d.r.ChangeableUrls - The Class-Path manifest attribute in C:\Users\7HP_SP1\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/7HP_SP1/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+2020-Apr-17 09:12:21.953 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-Apr-17 09:12:21.954 INFO  [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-Apr-17 09:12:31.710 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Apr-17 09:12:32.168 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 414ms. Found 1 JPA repository interfaces.
+2020-Apr-17 09:12:37.063 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-Apr-17 09:12:37.152 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2020-Apr-17 09:12:37.153 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-Apr-17 09:12:37.735 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2020-Apr-17 09:12:37.736 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 15781 ms
+2020-Apr-17 09:12:38.586 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Starting...
+2020-Apr-17 09:12:39.300 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-1 - Start completed.
+2020-Apr-17 09:12:39.360 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-Apr-17 09:12:40.754 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Apr-17 09:12:41.330 INFO  [restartedMain] o.h.Version - HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-Apr-17 09:12:42.189 INFO  [restartedMain] o.h.a.c.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-Apr-17 09:12:42.805 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-Apr-17 09:12:47.195 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Apr-17 09:12:47.244 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:12:47.426 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-Apr-17 09:12:51.207 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Apr-17 09:12:51.780 INFO  [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-Apr-17 09:12:53.042 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:12:54.862 INFO  [restartedMain] o.a.k.c.c.ConsumerConfig - ConsumerConfig values: 
 	allow.auto.create.topics = true
 	auto.commit.interval.ms = 5000
 	auto.offset.reset = latest
@@ -95,37 +95,541 @@
 	ssl.truststore.type = JKS
 	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
 
-2020-Apr-16 18:10:15.503 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
-2020-Apr-16 18:10:15.504 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
-2020-Apr-16 18:10:15.505 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587040815484
-2020-Apr-16 18:10:15.525 INFO  [restartedMain] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-1, groupId=users] Subscribed to topic(s): exam
-2020-Apr-16 18:10:15.529 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
-2020-Apr-16 18:10:15.544 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
-2020-Apr-16 18:10:15.942 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2020-Apr-16 18:10:16.043 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
-2020-Apr-16 18:10:17.758 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata - [Consumer clientId=consumer-1, groupId=users] Cluster ID: 819JYLueSz-V5HiEtV47zw
-2020-Apr-16 18:10:18.534 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
-2020-Apr-16 18:10:18.591 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Started JmsIntegrationApplication in 49.908 seconds (JVM running for 67.568)
-2020-Apr-16 18:10:18.618 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - --Application Started--
-2020-Apr-16 18:10:24.221 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] Discovered group coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
-2020-Apr-16 18:10:24.254 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=users] Revoking previously assigned partitions []
-2020-Apr-16 18:10:24.256 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions revoked: []
-2020-Apr-16 18:10:24.256 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] (Re-)joining group
-2020-Apr-16 18:10:24.491 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] (Re-)joining group
-2020-Apr-16 18:10:25.630 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] Successfully joined group with generation 1
-2020-Apr-16 18:10:25.643 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=users] Setting newly assigned partitions: exam-0
-2020-Apr-16 18:10:26.036 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=users] Found no committed offset for partition exam-0
-2020-Apr-16 18:10:27.263 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-1, groupId=users] Resetting offset for partition exam-0 to offset 0.
-2020-Apr-16 18:10:28.570 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions assigned: [exam-0]
-2020-Apr-16 18:11:13.675 INFO  [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-Apr-16 18:11:13.676 INFO  [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-2020-Apr-16 18:11:13.822 INFO  [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet - Completed initialization in 145 ms
-2020-Apr-16 18:11:14.341 INFO  [http-nio-8080-exec-2] c.e.j.UserController - adding new user
-2020-Apr-16 18:11:22.503 INFO  [http-nio-8080-exec-3] c.e.j.UserController - Retrieving all users: [User [email=abc@gmail.com, password=abc123, name=abc, role=student, address=[Address [id=1, type=home, addr=bangalore]]]]
-2020-Apr-16 18:11:38.892 INFO  [http-nio-8080-exec-7] c.e.j.UserController - updating user
-2020-Apr-16 18:11:45.014 INFO  [http-nio-8080-exec-4] c.e.j.UserController - Retrieving all users: [User [email=abc@gmail.com, password=hello, name=abc, role=student, address=[Address [id=1, type=office, addr=bangalore-sarjapur]]]]
-2020-Apr-16 18:11:52.824 WARN  [http-nio-8080-exec-8] c.e.j.UserController - deleting user
-2020-Apr-16 18:12:07.999 INFO  [http-nio-8080-exec-2] o.a.k.c.p.ProducerConfig - ProducerConfig values: 
+2020-Apr-17 09:12:55.451 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
+2020-Apr-17 09:12:55.452 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-Apr-17 09:12:55.453 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587094975440
+2020-Apr-17 09:12:55.473 INFO  [restartedMain] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-1, groupId=users] Subscribed to topic(s): exam
+2020-Apr-17 09:12:55.478 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-Apr-17 09:12:55.497 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-Apr-17 09:12:55.790 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-Apr-17 09:12:55.963 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-Apr-17 09:12:57.404 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata - [Consumer clientId=consumer-1, groupId=users] Cluster ID: hZto0I-fQK67IJ-AlJV_5g
+2020-Apr-17 09:12:58.141 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-Apr-17 09:12:58.150 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Started JmsIntegrationApplication in 42.22 seconds (JVM running for 47.935)
+2020-Apr-17 09:12:58.322 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - --Application Started--
+2020-Apr-17 09:13:00.268 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] Discovered group coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:13:00.288 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=users] Revoking previously assigned partitions []
+2020-Apr-17 09:13:00.290 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions revoked: []
+2020-Apr-17 09:13:00.290 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] (Re-)joining group
+2020-Apr-17 09:13:00.451 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] (Re-)joining group
+2020-Apr-17 09:13:00.947 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] Successfully joined group with generation 1
+2020-Apr-17 09:13:00.959 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=users] Setting newly assigned partitions: exam-0
+2020-Apr-17 09:13:01.010 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-1, groupId=users] Found no committed offset for partition exam-0
+2020-Apr-17 09:13:01.120 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.SubscriptionState - [Consumer clientId=consumer-1, groupId=users] Resetting offset for partition exam-0 to offset 0.
+2020-Apr-17 09:13:01.218 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions assigned: [exam-0]
+2020-Apr-17 09:13:47.090 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-1, groupId=users] Member consumer-1-afede3e4-21a7-4995-ae59-c2bab6753385 sending LeaveGroup request to coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:13:47.097 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-1, groupId=users] Unsubscribed all topics or patterns and assigned partitions
+2020-Apr-17 09:13:47.097 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+2020-Apr-17 09:13:47.349 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - users: Consumer stopped
+2020-Apr-17 09:13:47.378 INFO  [Thread-5] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:13:47.393 INFO  [Thread-5] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:13:47.394 INFO  [Thread-5] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-Apr-17 09:13:47.399 ERROR [Thread-5] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table address if exists
+2020-Apr-17 09:13:47.403 ERROR [Thread-5] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table userdto if exists
+2020-Apr-17 09:13:47.750 WARN  [Thread-5] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-Apr-17 09:13:47.752 INFO  [Thread-5] c.z.h.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-Apr-17 09:13:47.759 INFO  [Thread-5] c.z.h.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-Apr-17 09:13:49.911 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Starting JmsIntegrationApplication on PC2016110702IRN with PID 5520 (C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration\target\classes started by 7HP_SP1 in C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration)
+2020-Apr-17 09:13:49.912 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-Apr-17 09:13:49.912 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - No active profile set, falling back to default profiles: default
+2020-Apr-17 09:13:51.830 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Apr-17 09:13:51.859 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 1 JPA repository interfaces.
+2020-Apr-17 09:13:52.466 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-Apr-17 09:13:52.468 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2020-Apr-17 09:13:52.468 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-Apr-17 09:13:52.512 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2020-Apr-17 09:13:52.512 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2584 ms
+2020-Apr-17 09:13:52.705 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-2 - Starting...
+2020-Apr-17 09:13:52.709 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-2 - Start completed.
+2020-Apr-17 09:13:52.709 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-Apr-17 09:13:53.010 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Apr-17 09:13:53.031 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-Apr-17 09:13:53.229 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Apr-17 09:13:53.230 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:13:53.265 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-Apr-17 09:13:53.876 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Apr-17 09:13:54.078 INFO  [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-Apr-17 09:13:54.315 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:13:54.634 INFO  [restartedMain] o.a.k.c.c.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = users
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2020-Apr-17 09:13:54.693 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
+2020-Apr-17 09:13:54.693 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-Apr-17 09:13:54.694 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587095034692
+2020-Apr-17 09:13:54.695 INFO  [restartedMain] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-2, groupId=users] Subscribed to topic(s): exam
+2020-Apr-17 09:13:54.695 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-Apr-17 09:13:54.698 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-Apr-17 09:13:54.700 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-Apr-17 09:13:54.717 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-Apr-17 09:13:54.713 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata - [Consumer clientId=consumer-2, groupId=users] Cluster ID: hZto0I-fQK67IJ-AlJV_5g
+2020-Apr-17 09:13:54.730 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=users] Discovered group coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:13:54.753 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=users] Revoking previously assigned partitions []
+2020-Apr-17 09:13:54.777 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions revoked: []
+2020-Apr-17 09:13:54.777 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=users] (Re-)joining group
+2020-Apr-17 09:13:54.792 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=users] (Re-)joining group
+2020-Apr-17 09:13:54.807 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=users] Successfully joined group with generation 3
+2020-Apr-17 09:13:54.807 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=users] Setting newly assigned partitions: exam-0
+2020-Apr-17 09:13:54.812 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-2, groupId=users] Setting offset for partition exam-0 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=PC2016110702IRN:9092 (id: 0 rack: null), epoch=0}}
+2020-Apr-17 09:13:54.920 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions assigned: [exam-0]
+2020-Apr-17 09:13:54.946 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-Apr-17 09:13:54.948 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Started JmsIntegrationApplication in 6.721 seconds (JVM running for 104.732)
+2020-Apr-17 09:13:54.954 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-Apr-17 09:13:54.954 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - --Application Started--
+2020-Apr-17 09:15:47.966 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-2, groupId=users] Member consumer-2-abfe6ab9-cf50-469d-b15f-0f307def30f2 sending LeaveGroup request to coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:15:47.967 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-2, groupId=users] Unsubscribed all topics or patterns and assigned partitions
+2020-Apr-17 09:15:47.968 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+2020-Apr-17 09:15:48.061 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - users: Consumer stopped
+2020-Apr-17 09:15:48.067 INFO  [Thread-9] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:15:48.075 INFO  [Thread-9] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:15:48.077 INFO  [Thread-9] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-Apr-17 09:15:48.083 ERROR [Thread-9] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table address if exists
+2020-Apr-17 09:15:48.085 ERROR [Thread-9] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table userdto if exists
+2020-Apr-17 09:15:48.294 WARN  [Thread-9] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-Apr-17 09:15:48.295 INFO  [Thread-9] c.z.h.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2020-Apr-17 09:15:48.301 INFO  [Thread-9] c.z.h.HikariDataSource - HikariPool-2 - Shutdown completed.
+2020-Apr-17 09:15:48.953 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Starting JmsIntegrationApplication on PC2016110702IRN with PID 5520 (C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration\target\classes started by 7HP_SP1 in C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration)
+2020-Apr-17 09:15:48.954 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-Apr-17 09:15:48.955 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - No active profile set, falling back to default profiles: default
+2020-Apr-17 09:15:50.941 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Apr-17 09:15:50.971 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28ms. Found 1 JPA repository interfaces.
+2020-Apr-17 09:15:51.570 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-Apr-17 09:15:51.572 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2020-Apr-17 09:15:51.572 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-Apr-17 09:15:51.613 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2020-Apr-17 09:15:51.613 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2642 ms
+2020-Apr-17 09:15:51.765 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-3 - Starting...
+2020-Apr-17 09:15:51.771 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-3 - Start completed.
+2020-Apr-17 09:15:51.771 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-Apr-17 09:15:52.331 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Apr-17 09:15:52.348 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-Apr-17 09:15:52.570 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Apr-17 09:15:52.572 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:15:52.601 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-Apr-17 09:15:53.028 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Apr-17 09:15:53.243 INFO  [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-Apr-17 09:15:53.462 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:15:53.798 INFO  [restartedMain] o.a.k.c.c.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = users
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2020-Apr-17 09:15:53.866 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
+2020-Apr-17 09:15:53.867 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-Apr-17 09:15:53.867 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587095153866
+2020-Apr-17 09:15:53.868 INFO  [restartedMain] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-3, groupId=users] Subscribed to topic(s): exam
+2020-Apr-17 09:15:53.869 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-Apr-17 09:15:53.873 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-Apr-17 09:15:53.880 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-Apr-17 09:15:53.891 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata - [Consumer clientId=consumer-3, groupId=users] Cluster ID: hZto0I-fQK67IJ-AlJV_5g
+2020-Apr-17 09:15:53.895 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=users] Discovered group coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:15:53.897 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=users] Revoking previously assigned partitions []
+2020-Apr-17 09:15:53.898 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions revoked: []
+2020-Apr-17 09:15:53.898 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=users] (Re-)joining group
+2020-Apr-17 09:15:53.900 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-Apr-17 09:15:53.907 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=users] (Re-)joining group
+2020-Apr-17 09:15:53.921 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=users] Successfully joined group with generation 5
+2020-Apr-17 09:15:53.922 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=users] Setting newly assigned partitions: exam-0
+2020-Apr-17 09:15:54.013 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-3, groupId=users] Setting offset for partition exam-0 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=PC2016110702IRN:9092 (id: 0 rack: null), epoch=0}}
+2020-Apr-17 09:15:54.069 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions assigned: [exam-0]
+2020-Apr-17 09:15:54.151 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-Apr-17 09:15:54.154 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Started JmsIntegrationApplication in 5.334 seconds (JVM running for 223.939)
+2020-Apr-17 09:15:54.159 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-Apr-17 09:15:54.159 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - --Application Started--
+2020-Apr-17 09:16:23.081 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-3, groupId=users] Member consumer-3-ad492467-634c-47f2-bc6e-0f803fcd0d1c sending LeaveGroup request to coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:16:23.083 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-3, groupId=users] Unsubscribed all topics or patterns and assigned partitions
+2020-Apr-17 09:16:23.083 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+2020-Apr-17 09:16:23.169 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - users: Consumer stopped
+2020-Apr-17 09:16:23.184 INFO  [Thread-15] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:16:23.197 INFO  [Thread-15] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:16:23.198 INFO  [Thread-15] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-Apr-17 09:16:23.203 ERROR [Thread-15] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table address if exists
+2020-Apr-17 09:16:23.204 ERROR [Thread-15] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table userdto if exists
+2020-Apr-17 09:16:23.453 WARN  [Thread-15] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-Apr-17 09:16:23.520 INFO  [Thread-15] c.z.h.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2020-Apr-17 09:16:23.554 INFO  [Thread-15] c.z.h.HikariDataSource - HikariPool-3 - Shutdown completed.
+2020-Apr-17 09:16:24.156 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Starting JmsIntegrationApplication on PC2016110702IRN with PID 5520 (C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration\target\classes started by 7HP_SP1 in C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration)
+2020-Apr-17 09:16:24.156 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-Apr-17 09:16:24.157 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - No active profile set, falling back to default profiles: default
+2020-Apr-17 09:16:25.654 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Apr-17 09:16:25.680 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 1 JPA repository interfaces.
+2020-Apr-17 09:16:26.166 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-Apr-17 09:16:26.167 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2020-Apr-17 09:16:26.168 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-Apr-17 09:16:26.203 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2020-Apr-17 09:16:26.203 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2033 ms
+2020-Apr-17 09:16:26.319 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-4 - Starting...
+2020-Apr-17 09:16:26.323 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-4 - Start completed.
+2020-Apr-17 09:16:26.324 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-Apr-17 09:16:26.651 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Apr-17 09:16:26.682 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-Apr-17 09:16:26.864 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Apr-17 09:16:26.865 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:16:26.898 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-Apr-17 09:16:27.689 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Apr-17 09:16:27.877 INFO  [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-Apr-17 09:16:28.097 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:16:28.443 INFO  [restartedMain] o.a.k.c.c.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = users
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2020-Apr-17 09:16:28.596 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
+2020-Apr-17 09:16:28.597 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-Apr-17 09:16:28.597 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587095188596
+2020-Apr-17 09:16:28.598 INFO  [restartedMain] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-4, groupId=users] Subscribed to topic(s): exam
+2020-Apr-17 09:16:28.599 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-Apr-17 09:16:28.601 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-Apr-17 09:16:28.605 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-Apr-17 09:16:28.617 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata - [Consumer clientId=consumer-4, groupId=users] Cluster ID: hZto0I-fQK67IJ-AlJV_5g
+2020-Apr-17 09:16:28.618 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-Apr-17 09:16:28.625 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=users] Discovered group coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:16:28.633 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=users] Revoking previously assigned partitions []
+2020-Apr-17 09:16:28.634 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions revoked: []
+2020-Apr-17 09:16:28.634 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=users] (Re-)joining group
+2020-Apr-17 09:16:28.670 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=users] (Re-)joining group
+2020-Apr-17 09:16:28.827 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=users] Successfully joined group with generation 7
+2020-Apr-17 09:16:28.830 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=users] Setting newly assigned partitions: exam-0
+2020-Apr-17 09:16:28.834 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-4, groupId=users] Setting offset for partition exam-0 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=PC2016110702IRN:9092 (id: 0 rack: null), epoch=0}}
+2020-Apr-17 09:16:28.839 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions assigned: [exam-0]
+2020-Apr-17 09:16:28.859 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-Apr-17 09:16:28.860 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Started JmsIntegrationApplication in 4.856 seconds (JVM running for 258.645)
+2020-Apr-17 09:16:28.865 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-Apr-17 09:16:28.865 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - --Application Started--
+2020-Apr-17 09:17:21.826 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-4, groupId=users] Member consumer-4-872e6806-e83d-4bc5-98d5-8f10baaae91d sending LeaveGroup request to coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:17:21.828 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-4, groupId=users] Unsubscribed all topics or patterns and assigned partitions
+2020-Apr-17 09:17:21.829 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+2020-Apr-17 09:17:21.913 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - users: Consumer stopped
+2020-Apr-17 09:17:21.918 INFO  [Thread-20] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:17:21.924 INFO  [Thread-20] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:17:21.925 INFO  [Thread-20] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-Apr-17 09:17:21.929 ERROR [Thread-20] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table address if exists
+2020-Apr-17 09:17:21.931 ERROR [Thread-20] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table userdto if exists
+2020-Apr-17 09:17:22.140 WARN  [Thread-20] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-Apr-17 09:17:22.141 INFO  [Thread-20] c.z.h.HikariDataSource - HikariPool-4 - Shutdown initiated...
+2020-Apr-17 09:17:22.147 INFO  [Thread-20] c.z.h.HikariDataSource - HikariPool-4 - Shutdown completed.
+2020-Apr-17 09:17:22.823 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Starting JmsIntegrationApplication on PC2016110702IRN with PID 5520 (C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration\target\classes started by 7HP_SP1 in C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration)
+2020-Apr-17 09:17:22.823 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-Apr-17 09:17:22.824 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - No active profile set, falling back to default profiles: default
+2020-Apr-17 09:17:24.487 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Apr-17 09:17:24.517 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 1 JPA repository interfaces.
+2020-Apr-17 09:17:25.092 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-Apr-17 09:17:25.095 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2020-Apr-17 09:17:25.096 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-Apr-17 09:17:25.133 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2020-Apr-17 09:17:25.134 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 2299 ms
+2020-Apr-17 09:17:25.268 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-5 - Starting...
+2020-Apr-17 09:17:25.278 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-5 - Start completed.
+2020-Apr-17 09:17:25.278 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-Apr-17 09:17:25.553 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Apr-17 09:17:25.567 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-Apr-17 09:17:25.731 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Apr-17 09:17:25.732 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:17:25.762 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-Apr-17 09:17:26.187 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Apr-17 09:17:26.351 INFO  [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-Apr-17 09:17:26.580 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:17:26.919 INFO  [restartedMain] o.a.k.c.c.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = users
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2020-Apr-17 09:17:26.985 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
+2020-Apr-17 09:17:26.992 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-Apr-17 09:17:26.995 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587095246985
+2020-Apr-17 09:17:26.996 INFO  [restartedMain] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-5, groupId=users] Subscribed to topic(s): exam
+2020-Apr-17 09:17:26.996 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-Apr-17 09:17:26.999 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-Apr-17 09:17:27.002 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2020-Apr-17 09:17:27.018 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata - [Consumer clientId=consumer-5, groupId=users] Cluster ID: hZto0I-fQK67IJ-AlJV_5g
+2020-Apr-17 09:17:27.022 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=users] Discovered group coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:17:27.023 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=users] Revoking previously assigned partitions []
+2020-Apr-17 09:17:27.024 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions revoked: []
+2020-Apr-17 09:17:27.024 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=users] (Re-)joining group
+2020-Apr-17 09:17:27.037 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=users] (Re-)joining group
+2020-Apr-17 09:17:27.055 INFO  [restartedMain] s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2020-Apr-17 09:17:27.060 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=users] Successfully joined group with generation 9
+2020-Apr-17 09:17:27.060 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=users] Setting newly assigned partitions: exam-0
+2020-Apr-17 09:17:27.065 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-5, groupId=users] Setting offset for partition exam-0 to the committed offset FetchPosition{offset=0, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=PC2016110702IRN:9092 (id: 0 rack: null), epoch=0}}
+2020-Apr-17 09:17:27.091 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer - users: partitions assigned: [exam-0]
+2020-Apr-17 09:17:27.271 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-Apr-17 09:17:27.273 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Started JmsIntegrationApplication in 4.564 seconds (JVM running for 317.057)
+2020-Apr-17 09:17:27.278 INFO  [restartedMain] o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2020-Apr-17 09:17:27.279 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - --Application Started--
+2020-Apr-17 09:19:03.517 INFO  [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-Apr-17 09:19:03.518 INFO  [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-Apr-17 09:19:03.580 INFO  [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet - Completed initialization in 62 ms
+2020-Apr-17 09:19:03.931 INFO  [http-nio-8080-exec-1] c.e.j.UserController - adding new user
+2020-Apr-17 09:19:13.344 INFO  [http-nio-8080-exec-3] c.e.j.UserController - Retrieving all users: [User [email=abc@gmail.com, password=abc123, name=abc, role=student, address=[Address [id=1, type=home, addr=bangalore]]]]
+2020-Apr-17 09:20:06.058 INFO  [http-nio-8080-exec-5] c.e.j.UserController - updating user
+2020-Apr-17 09:20:23.692 INFO  [http-nio-8080-exec-7] c.e.j.UserController - Retrieving all users: [User [email=abc@gmail.com, password=hello, name=abc, role=student, address=[Address [id=1, type=office, addr=bangalore-kodathi]]]]
+2020-Apr-17 09:20:39.004 WARN  [http-nio-8080-exec-9] c.e.j.UserController - deleting user
+2020-Apr-17 09:21:23.486 INFO  [http-nio-8080-exec-1] o.a.k.c.p.ProducerConfig - ProducerConfig values: 
 	acks = 1
 	batch.size = 16384
 	bootstrap.servers = [localhost:9092]
@@ -189,8 +693,123 @@
 	transactional.id = null
 	value.serializer = class org.springframework.kafka.support.serializer.JsonSerializer
 
-2020-Apr-16 18:12:08.153 INFO  [http-nio-8080-exec-2] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
-2020-Apr-16 18:12:08.154 INFO  [http-nio-8080-exec-2] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
-2020-Apr-16 18:12:08.155 INFO  [http-nio-8080-exec-2] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587040928152
-2020-Apr-16 18:12:08.194 INFO  [kafka-producer-network-thread | producer-1] o.a.k.c.Metadata - [Producer clientId=producer-1] Cluster ID: 819JYLueSz-V5HiEtV47zw
-2020-Apr-16 18:12:08.605 DEBUG [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.e.j.s.KafkaConsumer - Consumed Message Exam [name=spring, link=www.spring.com]
+2020-Apr-17 09:21:23.681 INFO  [http-nio-8080-exec-1] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
+2020-Apr-17 09:21:23.681 INFO  [http-nio-8080-exec-1] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-Apr-17 09:21:23.682 INFO  [http-nio-8080-exec-1] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587095483681
+2020-Apr-17 09:21:23.731 INFO  [kafka-producer-network-thread | producer-1] o.a.k.c.Metadata - [Producer clientId=producer-1] Cluster ID: hZto0I-fQK67IJ-AlJV_5g
+2020-Apr-17 09:21:24.002 DEBUG [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] c.e.j.s.KafkaConsumer - Consumed Message Exam [name=spring, link=www.spring.com]
+2020-Apr-17 09:21:53.418 INFO  [http-nio-8080-exec-5] c.e.j.UserController - Acccessing items using RestTemplate
+2020-Apr-17 09:22:22.425 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-5, groupId=users] Member consumer-5-3acc3bcb-d90c-4f38-8119-27791f4d23b4 sending LeaveGroup request to coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:22:22.427 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-5, groupId=users] Unsubscribed all topics or patterns and assigned partitions
+2020-Apr-17 09:22:22.428 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService
+2020-Apr-17 09:22:22.565 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer$ListenerConsumer - users: Consumer stopped
+2020-Apr-17 09:22:22.572 INFO  [Thread-25] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:22:22.582 INFO  [Thread-25] o.a.k.c.p.KafkaProducer - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+2020-Apr-17 09:22:22.602 INFO  [Thread-25] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:22:22.603 INFO  [Thread-25] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2020-Apr-17 09:22:22.605 ERROR [Thread-25] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table address if exists
+2020-Apr-17 09:22:22.607 ERROR [Thread-25] o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl - HHH000478: Unsuccessful: drop table userdto if exists
+2020-Apr-17 09:22:22.815 WARN  [Thread-25] o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2020-Apr-17 09:22:22.817 INFO  [Thread-25] c.z.h.HikariDataSource - HikariPool-5 - Shutdown initiated...
+2020-Apr-17 09:22:22.819 INFO  [Thread-25] c.z.h.HikariDataSource - HikariPool-5 - Shutdown completed.
+2020-Apr-17 09:22:23.580 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - Starting JmsIntegrationApplication on PC2016110702IRN with PID 5520 (C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration\target\classes started by 7HP_SP1 in C:\Users\7HP_SP1\git\JMSIntegration\JMSIntegration)
+2020-Apr-17 09:22:23.581 DEBUG [restartedMain] c.e.j.JmsIntegrationApplication - Running with Spring Boot v2.2.6.RELEASE, Spring v5.2.5.RELEASE
+2020-Apr-17 09:22:23.581 INFO  [restartedMain] c.e.j.JmsIntegrationApplication - No active profile set, falling back to default profiles: default
+2020-Apr-17 09:22:26.002 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-Apr-17 09:22:26.039 INFO  [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 1 JPA repository interfaces.
+2020-Apr-17 09:22:26.669 INFO  [restartedMain] o.s.b.w.e.t.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-Apr-17 09:22:26.670 INFO  [restartedMain] o.a.c.c.StandardService - Starting service [Tomcat]
+2020-Apr-17 09:22:26.671 INFO  [restartedMain] o.a.c.c.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-Apr-17 09:22:26.710 INFO  [restartedMain] o.a.c.c.C.[.[.[/] - Initializing Spring embedded WebApplicationContext
+2020-Apr-17 09:22:26.710 INFO  [restartedMain] o.s.w.c.ContextLoader - Root WebApplicationContext: initialization completed in 3111 ms
+2020-Apr-17 09:22:26.865 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-6 - Starting...
+2020-Apr-17 09:22:26.870 INFO  [restartedMain] c.z.h.HikariDataSource - HikariPool-6 - Start completed.
+2020-Apr-17 09:22:26.871 INFO  [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2020-Apr-17 09:22:27.176 INFO  [restartedMain] o.h.j.i.u.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-Apr-17 09:22:27.205 INFO  [restartedMain] o.h.d.Dialect - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2020-Apr-17 09:22:27.364 INFO  [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-Apr-17 09:22:27.365 INFO  [restartedMain] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-Apr-17 09:22:27.397 INFO  [restartedMain] o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-Apr-17 09:22:27.908 WARN  [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-Apr-17 09:22:28.083 INFO  [restartedMain] o.s.b.a.e.w.EndpointLinksResolver - Exposing 14 endpoint(s) beneath base path '/actuator'
+2020-Apr-17 09:22:28.349 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-Apr-17 09:22:28.724 INFO  [restartedMain] o.a.k.c.c.ConsumerConfig - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [localhost:9092]
+	check.crcs = true
+	client.dns.lookup = default
+	client.id = 
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = users
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.springframework.kafka.support.serializer.JsonDeserializer
+
+2020-Apr-17 09:22:28.784 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka version: 2.3.1
+2020-Apr-17 09:22:28.785 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka commitId: 18a913733fb71c01
+2020-Apr-17 09:22:28.785 INFO  [restartedMain] o.a.k.c.u.AppInfoParser - Kafka startTimeMs: 1587095548784
+2020-Apr-17 09:22:28.787 INFO  [restartedMain] o.a.k.c.c.KafkaConsumer - [Consumer clientId=consumer-6, groupId=users] Subscribed to topic(s): exam
+2020-Apr-17 09:22:28.787 INFO  [restartedMain] o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService
+2020-Apr-17 09:22:28.805 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata - [Consumer clientId=consumer-6, groupId=users] Cluster ID: hZto0I-fQK67IJ-AlJV_5g
+2020-Apr-17 09:22:28.808 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator - [Consumer clientId=consumer-6, groupId=users] Discovered group coordinator PC2016110702IRN:9092 (id: 2147483647 rack: null)
+2020-Apr-17 09:22:28.802 INFO  [restartedMain] s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2020-Apr-17 09:22:28.810 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator - [Consumer clientId=consumer-6, groupId=users] Revoking previously assigned partitions []

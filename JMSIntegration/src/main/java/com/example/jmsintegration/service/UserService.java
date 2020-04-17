@@ -10,7 +10,7 @@ public interface UserService {
 	
 	public List<UserDTO> getAllUsers();
 	
-	public UserDTO updateUser(UserDTO user);
+	public UserDTO updateUser(UserDTO user, String name);
 	
 	public void deleteUser(String name);
 

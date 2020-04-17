@@ -18,8 +18,11 @@ public class UserServiceImpl implements UserService {
 	}
 
 	@Override
-	public UserDTO updateUser(UserDTO u1) {
-   		return repo.save(u1);
+	public UserDTO updateUser(UserDTO u1,String name) {
+		UserDTO user=repo.findByName(name);
+		user.setPassword(u1.getPassword());
+		user.setAddress(u1.getAddress());
+   		return repo.save(user);
 	}
 
 	@Override
