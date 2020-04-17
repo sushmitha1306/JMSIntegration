@@ -47,7 +47,6 @@ public class UserController {
 	private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 
 	@GetMapping("/template")
-	@ResponseBody
 	@ApiOperation(value="Fetching data using RestTemplate")
 	public RestClass getItems() {
 		logger.info("Acccessing items using RestTemplate");
@@ -56,7 +55,6 @@ public class UserController {
 	}
 	
 	@GetMapping("/users")
-	@ResponseBody
 	@ApiOperation(value="Get All Users")
 	public ResponseEntity<List<UserDTO>> getAllUsers(){
 		logger.info("Retrieving all users: {}", service.getAllUsers());
@@ -65,7 +63,6 @@ public class UserController {
 	}
 	
 	@PostMapping("/users")
-	@ResponseBody
 	@ApiOperation(value="Create New User")
 	public ResponseEntity<UserDTO> createUser(@RequestBody User user) {
 		logger.info("adding new user");
@@ -76,7 +73,6 @@ public class UserController {
 	}
 	
 	@PutMapping("/users/{name}")
-	@ResponseBody
 	@ApiOperation("Update User Details like password")
 	public ResponseEntity<UserDTO> updateUser(@RequestBody User user,@PathVariable(name="name")String name) {
 		logger.info("updating user");
@@ -87,7 +83,6 @@ public class UserController {
 	}
 	
 	@DeleteMapping("/users/{name}")
-	@ResponseBody
 	@ApiOperation(value="Delete User data")
 	public ResponseEntity<Void> deleteUser(@PathVariable(name="name")String name) {
 	    logger.warn("deleting user"); 
